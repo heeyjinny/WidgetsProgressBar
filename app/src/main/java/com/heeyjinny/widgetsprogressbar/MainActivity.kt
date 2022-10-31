@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             Thread.sleep(3000) //3초
 
             //메인 스레드에서 동작할수 있도록
-            runOnUiThread{
+            runOnUiThread{ //메인스레드
                 showProgress(false)
 
             }
